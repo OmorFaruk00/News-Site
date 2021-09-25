@@ -9,7 +9,7 @@
                         include "config.php";
 
                         /* Calculate Offset Code */
-                        $limit = 3;
+                        $limit = 5;
                         if(isset($_GET['page'])){
                           $page = $_GET['page'];
                         }else{

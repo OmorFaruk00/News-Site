@@ -124,7 +124,7 @@ switch ($page ) {
                     echo "<li><a class='{$active}' href='category.php?cid={$row['category_id']}'>{$row['category_name']}</a></li>";
                   } ?>
                 </ul>
-                    ?>
+                    
                 </ul>
                 <?php } ?>
            

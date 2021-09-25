@@ -12,7 +12,7 @@
                 <?php
                   include "config.php"; // database configuration
                   /* Calculate Offset Code */
-                  $limit = 3;
+                  $limit = 10;
                   if(isset($_GET['page'])){
                     $page = $_GET['page'];
                   }else{

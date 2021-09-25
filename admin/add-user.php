@@ -13,6 +13,7 @@ if(isset($_POST['save'])){
   $lname =mysqli_real_escape_string($conn,$_POST['lname']);
   $user =mysqli_real_escape_string($conn,$_POST['user']);
   $password=mysqli_real_escape_string($conn,md5($_POST['password']));
+  
   $role=mysqli_real_escape_string($conn,$_POST['role']);
 
   $sql = "SELECT username FROM `user` WHERE username = '$user'";

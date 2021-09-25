@@ -1,7 +1,4 @@
 <?php include "header.php"; 
-// if($_SESSION["user_role"] =='0'){
-//   header("Location:http://localhost/News-site/admin/post.php");
-// }
 
 ?>
 <div id="admin-content">

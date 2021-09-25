@@ -1,6 +1,7 @@
 <div id="sidebar" class="col-md-4">
     <!-- search box -->
-    <div class="search-box-container">
+    <div class="">
+        <div class="search-box-container">
         <h4>Search</h4>
         <form class="search-post" action="search.php" method ="GET">
             <div class="input-group">
@@ -54,6 +55,7 @@
        
     
 </div>
+    </div>
     <!-- /recent posts box -->
 </div>
 
